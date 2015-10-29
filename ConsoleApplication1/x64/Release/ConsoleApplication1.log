@@ -1,0 +1,38 @@
+﻿Build started 10/26/2015 7:19:36 PM.
+     1>Project "C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TC /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS BigNumber.c
+         BigNumber.c
+     1>BigNumber.c(25): warning C4244: 'function': conversion from 'size_t' to 'double', possible loss of data
+     1>BigNumber.c(25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>BigNumber.c(191): warning C4101: 'i': unreferenced local variable
+     1>BigNumber.c(313): warning C4101: 'L_temp': unreferenced local variable
+     1>BigNumber.c(312): warning C4101: 'r_temp': unreferenced local variable
+     1>BigNumber.c(312): warning C4101: 'p_temp': unreferenced local variable
+     1>BigNumber.c(312): warning C4101: 'q_temp': unreferenced local variable
+     1>BigNumber.c(470): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>BigNumber.c(480): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>BigNumber.c(459): warning C4101: 'i': unreferenced local variable
+     1>BigNumber.c(585): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>BigNumber.c(602): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>BigNumber.c(690): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>BigNumber.c(704): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>BigNumber.c(535): warning C4101: 'k': unreferenced local variable
+     1>BigNumber.c(538): warning C4101: 'top2': unreferenced local variable
+     1>BigNumber.c(538): warning C4101: 'top1': unreferenced local variable
+     1>BigNumber.c(535): warning C4101: 'i': unreferenced local variable
+     1>BigNumber.c(539): warning C4101: 'mystring_temp': unreferenced local variable
+     1>BigNumber.c(537): warning C4101: 'string_temp': unreferenced local variable
+     1>BigNumber.c(630): warning C4101: 'p0': unreferenced local variable
+     1>BigNumber.c(667): warning C4101: 'p0': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\x64\Release\ConsoleApplication1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\x64\Release\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\x64\Release\ConsoleApplication1.lib" /MACHINE:X64 x64\Release\BigNumber.obj
+         Generating code
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(736): error C4703: potentially uninitialized local pointer variable 'L1_temp' used
+         All 16 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+     1>LINK : fatal error LNK1257: code generation failed
+     1>Done Building Project "C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.10

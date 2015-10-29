@@ -1,0 +1,35 @@
+﻿Build started 10/25/2015 8:42:01 PM.
+     1>Project "C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS BigNumber.c
+         BigNumber.c
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(25): warning C4244: 'function': conversion from 'size_t' to 'double', possible loss of data
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(208): warning C4101: 'i': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(330): warning C4101: 'L_temp': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(329): warning C4101: 'r_temp': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(329): warning C4101: 'p_temp': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(329): warning C4101: 'q_temp': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(487): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(497): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(476): warning C4101: 'i': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(602): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(619): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(707): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(721): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(552): warning C4101: 'k': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(555): warning C4101: 'top2': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(555): warning C4101: 'top1': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(552): warning C4101: 'i': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(556): warning C4101: 'mystring_temp': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(554): warning C4101: 'string_temp': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(647): warning C4101: 'p0': unreferenced local variable
+     1>c:\users\v-xiafe\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\bignumber.c(684): warning C4101: 'p0': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.lib" /MACHINE:X64 x64\Debug\BigNumber.obj
+         ConsoleApplication1.vcxproj -> C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\v-xiafe\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59
